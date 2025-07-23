@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "BuBu",
+    "slug": "bubu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes",
+    "platforms": ["android", "ios"],
+    "sdkVersion": "49.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}
