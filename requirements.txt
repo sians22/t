@@ -1,0 +1,19 @@
+# Mobile2 Global Bot Requirements
+# Core dependencies
+tkinter  # Usually comes with Python
+json  # Built-in module
+threading  # Built-in module
+time  # Built-in module
+random  # Built-in module
+os  # Built-in module
+logging  # Built-in module
+typing  # Built-in module
+
+# Windows-specific dependencies for game interaction
+pywin32>=306
+psutil>=5.9.0
+
+# Optional dependencies for enhanced functionality
+numpy>=1.21.0  # For mathematical operations
+pillow>=8.3.0  # For image processing (if needed for ESP)
+opencv-python>=4.5.0  # For computer vision (if needed for ESP)

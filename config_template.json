@@ -1,0 +1,83 @@
+{
+  "potions": {
+    "red_potion_threshold": 50,
+    "blue_potion_threshold": 50,
+    "stop_when_no_red": false
+  },
+  "wallhack": {
+    "enabled": false
+  },
+  "restart_here": {
+    "enabled": false,
+    "position": [0, 0, 0]
+  },
+  "upgrade_slot1": {
+    "enabled": false
+  },
+  "farm": {
+    "range": 100,
+    "position": [0, 0, 0],
+    "enabled": false
+  },
+  "targeting": {
+    "mobs": ["Goblin", "Orc", "Skeleton"],
+    "stones": ["Iron Ore", "Gold Ore", "Silver Ore"],
+    "attack_groups": 1
+  },
+  "base_skills": {
+    "enabled": false
+  },
+  "esp": {
+    "players": false,
+    "stones": false
+  },
+  "speed": {
+    "movement": 1.0,
+    "wait_hack": 1.0,
+    "wait_hack_range": 1.0
+  },
+  "items": {
+    "search_items": ["Health Potion", "Mana Potion", "Iron Sword"],
+    "pickup_filter": true,
+    "drop_no_bonus": false
+  },
+  "whitelist": {
+    "players": ["Player1", "Player2"],
+    "range": 100,
+    "active": false
+  },
+  "player_actions": {
+    "stop_wait_range": false,
+    "stop_speedhacks": false,
+    "stop_bot": false,
+    "quit_game": false,
+    "sound_alarm": false
+  },
+  "gm_actions": {
+    "stop_wait_range": false,
+    "stop_speedhacks": false,
+    "stop_bot": false,
+    "quit_game": false,
+    "sound_alarm": false
+  },
+  "spambot": {
+    "text": "Hello World!",
+    "seconds": 5,
+    "enabled": false
+  },
+  "fishing": {
+    "kill_fish": false,
+    "grill_fish": false,
+    "drop_dead_fish": false,
+    "drop_hair_color": false,
+    "dead_alarm": false,
+    "delay_ms": 2650
+  },
+  "route": {
+    "recording": false,
+    "farm_range": 100,
+    "name": "My Route",
+    "waypoints": [],
+    "auto_route": false
+  }
+}
