@@ -1,0 +1,29 @@
+# GGBOT v2 - Mobile2 Global Bot Dependencies
+
+# GUI Framework
+tkinter  # Python built-in, no installation needed
+
+# Image Processing
+opencv-python==4.8.1.78
+Pillow==10.0.1
+numpy==1.24.3
+
+# Automation
+pyautogui==0.9.54
+keyboard==0.13.5
+mouse==0.7.1
+
+# Audio
+pygame==2.5.2
+
+# File Operations
+json  # Python built-in
+os  # Python built-in
+threading  # Python built-in
+time  # Python built-in
+datetime  # Python built-in
+random  # Python built-in
+
+# Additional utilities
+psutil==5.9.6  # System monitoring
+pygetwindow==0.0.9  # Window management
