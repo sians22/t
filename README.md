@@ -1,241 +1,149 @@
-# 🚚 Kurye Yönetim Sistemi (Courier Management System)
+# GGBOT v2 - Mobile2 Global Bot
 
-Modern, kapsamlı ve kullanıcı dostu bir kurye yönetim sistemi. Müşteri uygulaması, kurye uygulaması ve admin paneli ile tam entegre çözüm.
+A comprehensive Python bot for Mobile2 Global with all the features you requested.
 
-## 🌟 Özellikler
+## Features
 
-### 👥 Müşteri Uygulaması
-- **Kullanıcı Girişi**: Admin paneli üzerinden yönetilen güvenli kimlik doğrulama
-- **Sipariş Oluşturma**: Yandex Maps entegrasyonu ile konum seçimi
-- **Fiyat Hesaplama**: Mesafe bazlı otomatik fiyatlandırma
-- **Promosyon Kodları**: İndirim kodları ile fiyat avantajı
-- **Gerçek Zamanlı Takip**: Sipariş durumu anlık güncellemeler
-- **Sipariş Geçmişi**: Tüm siparişlerin detaylı görüntülenmesi
-- **Kurye Değerlendirme**: 5 yıldızlı rating sistemi
+### Potion Management
+- **Red Potion**: Automatically uses red potions based on HP percentage
+- **Blue Potion**: Automatically uses blue potions based on MP percentage
+- **Stop when no red potions**: Option to stop bot when red potions run out
 
-### 🚛 Kurye Uygulaması
-- **Kurye Girişi**: Güvenli kimlik doğrulama sistemi
-- **Yeni Sipariş Bildirimleri**: Anlık push notification
-- **Sipariş Kabul Etme**: Tek tıkla sipariş alma
-- **Durum Güncelleme**: Sipariş durumunu gerçek zamanlı güncelleme
-- **Sipariş Geçmişi**: Tamamlanan siparişlerin görüntülenmesi
-- **Performans Takibi**: Ortalama puan ve istatistikler
+### Movement & Hacks
+- **Wallhack**: Pass through objects, items, and mobs
+- **Restart Here**: Restart at current position when you die
+- **Movement Speed**: Adjust movement speed multiplier
+- **Wait Hack**: Attack without animation at close range
+- **Wait Hack Range**: Attack without animation at long range
 
-### ⚙️ Admin Paneli
-- **Kullanıcı Yönetimi**: Müşteri ve kurye hesap yönetimi
-- **Sipariş Yönetimi**: Tüm siparişlerin merkezi kontrolü
-- **Fiyatlandırma**: Mesafe bazlı fiyat kuralları
-- **Promosyon Kodları**: İndirim kodları oluşturma ve yönetimi
-- **Bildirim Sistemi**: Toplu bildirim gönderimi
-- **Site Özelleştirme**: Logo, renk ve tema ayarları
-- **İstatistikler**: Detaylı raporlama ve analiz
+### Targeting & Farming
+- **Farm Range**: Set farming area radius
+- **Fixed Position**: Set specific farming area
+- **Mob Selection**: Choose which mobs to attack
+- **Stone Selection**: Choose which stones to mine
+- **Attack Groups**: Attack multiple groups simultaneously
+- **Base Skills**: Auto-use non-damaging base items like Air Rage
 
-### 🗺️ Harita Entegrasyonu
-- **Yandex Maps API**: Gerçek zamanlı harita servisleri
-- **Konum Seçimi**: Alış ve teslimat noktası belirleme
-- **Mesafe Hesaplama**: Otomatik rota ve mesafe hesaplama
-- **Mevcut Konum**: GPS ile otomatik konum tespiti
+### Item Management
+- **Search Items**: Search for specific items
+- **Pickup Filter**: Only pickup listed items
+- **Drop No Bonus**: Drop items without bonuses, keep enchanted items
+- **File Management**: Save/load item lists
 
-## 🛠️ Teknoloji Stack
+### Player Detection & Whitelist
+- **ESP Players**: Show players on screen
+- **ESP Stones**: Show stones on screen
+- **Player Whitelist**: Add players to whitelist
+- **Player Range**: Set detection range
+- **Player Actions**: Actions when players enter range
+- **GM Actions**: Actions when GMs enter range
 
-### Frontend
-- **React 18** - Modern UI framework
-- **Vite** - Hızlı build tool
-- **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animasyon kütüphanesi
-- **React Router** - Sayfa yönlendirme
-- **React i18next** - Çoklu dil desteği (Türkçe/Rusça)
+### Spambot
+- **Auto Message**: Send messages automatically
+- **Custom Text**: Set custom message text
+- **Timing**: Set message interval in seconds
 
-### Harita ve Konum
-- **Yandex Maps API** - Harita servisleri
-- **Geolocation API** - GPS konum tespiti
+### Fishing Bot
+- **Kill Fish**: Automatically kill fish
+- **Grill Fish**: Automatically grill fish
+- **Drop Dead Fish**: Drop dead fish
+- **Drop Hair Color**: Drop hair color items
+- **Dead Alarm**: Sound alarm when you die
+- **Delay Settings**: Adjust timing
 
-### UI Bileşenleri
-- **Radix UI** - Erişilebilir UI primitives
-- **Lucide React** - Modern ikon seti
-- **Custom Components** - Özel tasarım bileşenleri
+### Route Recording
+- **Record Route**: Record movement patterns
+- **Auto Route**: Follow recorded routes
+- **Route Management**: Save/load/delete routes
+- **Farm Range**: Set farming area for routes
 
-### Veri Yönetimi
-- **React Context** - State management
-- **LocalStorage** - Veri kalıcılığı
-- **Zustand** - Lightweight state management
+## Installation
 
-## 🚀 Kurulum
+1. **Install Python 3.8+**
+   ```bash
+   # Download from https://python.org
+   ```
 
-### Gereksinimler
-- Node.js 18+ 
-- npm veya yarn
-- Yandex Maps API anahtarı
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Adım 1: Projeyi Klonlayın
-```bash
-git clone <repository-url>
-cd kurye-sistemi
+3. **Run the Bot**
+   ```bash
+   python mobile2_bot.py
+   ```
+
+## Usage
+
+1. **Start the Bot**: Run `mobile2_bot.py`
+2. **Configure Settings**: Use the GUI to configure all features
+3. **Connect to Game**: Make sure Mobile2 Global is running
+4. **Start Bot**: Click "Start Bot" button
+5. **Monitor**: Watch the bot work and adjust settings as needed
+
+## Configuration
+
+The bot saves all settings automatically. You can also:
+- **Save Settings**: Export current configuration
+- **Load Settings**: Import saved configuration
+- **Reset Settings**: Restart with default settings
+
+## Safety Features
+
+- **Player Detection**: Stop bot when players enter range
+- **GM Detection**: Stop bot when GMs enter range
+- **Alarm System**: Sound alerts for important events
+- **Configurable Actions**: Set different actions for different situations
+
+## File Structure
+
+```
+mobile2_bot/
+├── mobile2_bot.py          # Main bot application
+├── game_interaction.py     # Game interaction module
+├── requirements.txt        # Python dependencies
+├── config_template.json    # Configuration template
+├── README.md              # This file
+├── bot_config.json        # Saved configuration (auto-created)
+├── item_files/            # Saved item lists
+└── route_files/           # Saved routes
 ```
 
-### Adım 2: Bağımlılıkları Yükleyin
-```bash
-npm install
-```
+## Important Notes
 
-### Adım 3: Ortam Değişkenlerini Ayarlayın
-`.env` dosyası oluşturun:
-```env
-VITE_YANDEX_MAPS_API_KEY=your-yandex-maps-api-key
-VITE_API_BASE_URL=http://localhost:3001/api
-```
+⚠️ **Use at your own risk!** This bot is for educational purposes only.
 
-### Adım 4: Uygulamayı Başlatın
-```bash
-npm run dev
-```
+- Always follow game terms of service
+- Use responsibly and don't abuse the game
+- Some features may require game-specific memory addresses
+- Test in safe areas first
+- Keep backups of your configurations
 
-Uygulama `http://localhost:5173` adresinde çalışacaktır.
+## Troubleshooting
 
-## 🔑 Yandex Maps API Kurulumu
+### Bot won't connect to game
+- Make sure Mobile2 Global is running
+- Run as administrator if needed
+- Check if game window title matches
 
-1. [Yandex Developer Console](https://developer.tech.yandex.ru/) adresine gidin
-2. Yeni bir proje oluşturun
-3. Maps JavaScript API'yi etkinleştirin
-4. API anahtarınızı alın
-5. `.env` dosyasına ekleyin
+### Features not working
+- Some features require specific game versions
+- Memory addresses may need updating
+- Check game compatibility
 
-## 👤 Demo Hesaplar
+### Performance issues
+- Reduce bot loop frequency
+- Disable unnecessary features
+- Close other applications
 
-Sistemi test etmek için aşağıdaki demo hesapları kullanabilirsiniz:
+## Support
 
-### Admin Hesabı
-- **Kullanıcı Adı**: `admin`
-- **Şifre**: `admin123`
+This bot is provided as-is. For issues or questions:
+1. Check the configuration
+2. Verify game compatibility
+3. Review the logs for errors
 
-### Müşteri Hesabı
-- **Kullanıcı Adı**: `customer`
-- **Şifre**: `customer123`
+## Disclaimer
 
-### Kurye Hesabı
-- **Kullanıcı Adı**: `courier`
-- **Şifre**: `courier123`
-
-## 📱 Mobil Uyumluluk
-
-Sistem tamamen responsive tasarıma sahiptir ve mobil cihazlarda mükemmel çalışır:
-
-- **iOS Safari** - Tam destek
-- **Android Chrome** - Tam destek
-- **Progressive Web App (PWA)** - Yüklenebilir uygulama
-- **Offline Mode** - İnternet bağlantısı olmadan da çalışır
-
-## 🌍 Çoklu Dil Desteği
-
-Sistem Türkçe ve Rusça dillerini destekler:
-
-- **Türkçe** - Varsayılan dil
-- **Rusça** - Tam çeviri desteği
-- **Dinamik Dil Değiştirme** - Anlık dil değişimi
-
-## 🔧 Konfigürasyon
-
-### Fiyatlandırma Kuralları
-```javascript
-// src/config/settings.js
-DEFAULT_PRICING: [
-  { minDistance: 0, maxDistance: 3, price: 10 },
-  { minDistance: 3, maxDistance: 10, price: 15 },
-  { minDistance: 10, maxDistance: 20, price: 25 },
-  { minDistance: 20, maxDistance: 50, price: 40 },
-]
-```
-
-### Promosyon Kodları
-```javascript
-DEFAULT_PROMO_CODES: [
-  { code: 'WELCOME10', discount: 10, type: 'percentage', maxUses: 100 },
-  { code: 'FIRST5', discount: 5, type: 'fixed', maxUses: 50 },
-]
-```
-
-## 📊 Sipariş Durumları
-
-1. **Bekliyor** - Sipariş oluşturuldu, kurye bekleniyor
-2. **Kabul Edildi** - Kurye siparişi kabul etti
-3. **Yolda** - Kurye teslimat yolunda
-4. **Teslim Edildi** - Sipariş başarıyla teslim edildi
-
-## 🔔 Bildirim Sistemi
-
-- **Push Notifications** - Gerçek zamanlı bildirimler
-- **Toast Messages** - Kullanıcı geri bildirimleri
-- **Email Notifications** - E-posta bildirimleri (gelecek özellik)
-
-## 🛡️ Güvenlik
-
-- **Güvenli Kimlik Doğrulama** - Şifreli giriş sistemi
-- **Rol Tabanlı Erişim** - Kullanıcı yetkilendirme
-- **Session Management** - Oturum yönetimi
-- **Input Validation** - Veri doğrulama
-
-## 📈 Performans
-
-- **Lazy Loading** - Sayfa yükleme optimizasyonu
-- **Code Splitting** - Bundle boyutu optimizasyonu
-- **Caching** - Veri önbellekleme
-- **Debouncing** - API çağrı optimizasyonu
-
-## 🚀 Production Deployment
-
-### Build
-```bash
-npm run build
-```
-
-### Deploy
-```bash
-# Netlify
-netlify deploy --prod --dir=dist
-
-# Vercel
-vercel --prod
-
-# Firebase
-firebase deploy
-```
-
-## 🔮 Gelecek Özellikler
-
-- [ ] **Backend API** - Node.js/Express backend
-- [ ] **Database** - MongoDB/PostgreSQL entegrasyonu
-- [ ] **Real-time Chat** - Müşteri-kurye mesajlaşma
-- [ ] **Payment Gateway** - Online ödeme sistemi
-- [ ] **Analytics Dashboard** - Detaylı analitik
-- [ ] **Mobile App** - React Native uygulaması
-- [ ] **SMS Notifications** - SMS bildirimleri
-- [ ] **Route Optimization** - En uygun rota hesaplama
-
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
-
-## 📞 İletişim
-
-- **E-posta**: info@kuryesistemi.com
-- **Telefon**: +90 xxx xxx xx xx
-- **Website**: https://kuryesistemi.com
-
-## 🙏 Teşekkürler
-
-- [Yandex Maps](https://tech.yandex.com/maps/) - Harita servisleri
-- [React](https://reactjs.org/) - UI framework
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
-- [Vite](https://vitejs.dev/) - Build tool
-
----
-
-**Kurye Yönetim Sistemi** - Modern kurye hizmetleri için kapsamlı çözüm 🚚✨ 
+This software is for educational purposes only. The authors are not responsible for any consequences of using this software. Use at your own risk and in accordance with the game's terms of service.
