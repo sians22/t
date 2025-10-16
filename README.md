@@ -1,241 +1,201 @@
-# 🚚 Kurye Yönetim Sistemi (Courier Management System)
+# GGBOT v2 - Mobile2 Global Bot
 
-Modern, kapsamlı ve kullanıcı dostu bir kurye yönetim sistemi. Müşteri uygulaması, kurye uygulaması ve admin paneli ile tam entegre çözüm.
+Öğretmen ödevi için geliştirilmiş kapsamlı oyun botu. Mobile2 Global oyunu için Python ile yazılmıştır.
 
-## 🌟 Özellikler
+## 🚀 Özellikler
 
-### 👥 Müşteri Uygulaması
-- **Kullanıcı Girişi**: Admin paneli üzerinden yönetilen güvenli kimlik doğrulama
-- **Sipariş Oluşturma**: Yandex Maps entegrasyonu ile konum seçimi
-- **Fiyat Hesaplama**: Mesafe bazlı otomatik fiyatlandırma
-- **Promosyon Kodları**: İndirim kodları ile fiyat avantajı
-- **Gerçek Zamanlı Takip**: Sipariş durumu anlık güncellemeler
-- **Sipariş Geçmişi**: Tüm siparişlerin detaylı görüntülenmesi
-- **Kurye Değerlendirme**: 5 yıldızlı rating sistemi
+### Potion Sistemi
+- **Red Potion**: Can yüzdeliğine göre otomatik kırmızı potion kullanımı
+- **Blue Potion**: Mana yüzdeliğine göre otomatik mavi potion kullanımı
+- **Stop Bot**: Kırmızı pot bittiğinde bot durdurma
 
-### 🚛 Kurye Uygulaması
-- **Kurye Girişi**: Güvenli kimlik doğrulama sistemi
-- **Yeni Sipariş Bildirimleri**: Anlık push notification
-- **Sipariş Kabul Etme**: Tek tıkla sipariş alma
-- **Durum Güncelleme**: Sipariş durumunu gerçek zamanlı güncelleme
-- **Sipariş Geçmişi**: Tamamlanan siparişlerin görüntülenmesi
-- **Performans Takibi**: Ortalama puan ve istatistikler
+### Hack Özellikleri
+- **Wallhack**: Nesne, Obje ve Mobların içinden geçme
+- **Restart Here**: Öldüğünde belirlenen yerde yeniden başlama
+- **Upgrade Item Slot 1**: 1. Slotta bulunan iteme uzaktan + basma
 
-### ⚙️ Admin Paneli
-- **Kullanıcı Yönetimi**: Müşteri ve kurye hesap yönetimi
-- **Sipariş Yönetimi**: Tüm siparişlerin merkezi kontrolü
-- **Fiyatlandırma**: Mesafe bazlı fiyat kuralları
-- **Promosyon Kodları**: İndirim kodları oluşturma ve yönetimi
-- **Bildirim Sistemi**: Toplu bildirim gönderimi
-- **Site Özelleştirme**: Logo, renk ve tema ayarları
-- **İstatistikler**: Detaylı raporlama ve analiz
+### Farm Sistemi
+- **Farm Range**: Farm alanı belirleme
+- **Fixed Position**: Alanı belirleme ve sabit pozisyon
 
-### 🗺️ Harita Entegrasyonu
-- **Yandex Maps API**: Gerçek zamanlı harita servisleri
-- **Konum Seçimi**: Alış ve teslimat noktası belirleme
-- **Mesafe Hesaplama**: Otomatik rota ve mesafe hesaplama
-- **Mevcut Konum**: GPS ile otomatik konum tespiti
+### Saldırı Sistemi
+- **Mob Saldırısı**: Canavarlara otomatik saldırı
+- **Stone Saldırısı**: Metinlere otomatik saldırı
+- **Grup Saldırısı**: Birden fazla gruba aynı anda saldırı
+- **Base Skills**: Hava Öfke gibi hasar vermeyen base itemleri otomatik yakma
 
-## 🛠️ Teknoloji Stack
+### ESP Sistemi
+- **ESP Player**: Oyuncuları görüntüleme
+- **ESP Stone**: Metinleri görüntüleme
+- **Renk Kalibrasyonu**: Özelleştirilebilir renk ayarları
 
-### Frontend
-- **React 18** - Modern UI framework
-- **Vite** - Hızlı build tool
-- **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animasyon kütüphanesi
-- **React Router** - Sayfa yönlendirme
-- **React i18next** - Çoklu dil desteği (Türkçe/Rusça)
+### Hız Sistemi
+- **Wait Hack**: Yakın mesafede animasyon olmadan saldırı
+- **Wait Hack Range**: Uzak mesafede animasyon olmadan saldırı
+- **Movement Speed**: Hareket hızını değiştirme
 
-### Harita ve Konum
-- **Yandex Maps API** - Harita servisleri
-- **Geolocation API** - GPS konum tespiti
+### Item Sistemi
+- **Search Item**: İtemleri arama
+- **Add Item**: Seçilen itemi listeye ekleme
+- **Delete Item**: Seçilen itemi silme
+- **Clear Items**: Tüm itemleri temizleme
+- **Pickup Filter**: Sadece listeye eklenen itemleri toplama
+- **Drop No Bonus**: Efsunsuz itemleri yere atma
 
-### UI Bileşenleri
-- **Radix UI** - Erişilebilir UI primitives
-- **Lucide React** - Modern ikon seti
-- **Custom Components** - Özel tasarım bileşenleri
+### Whitelist Sistemi
+- **Add to Whitelist**: Oyuncuları beyaz listeye ekleme
+- **Player Range**: Alan belirleme
+- **Player Search**: Oyuncu ismi arama
+- **If Player Actions**: Oyuncu alanına girdiğinde yapılacak işlemler
 
-### Veri Yönetimi
-- **React Context** - State management
-- **LocalStorage** - Veri kalıcılığı
-- **Zustand** - Lightweight state management
+### Spam Bot
+- **Text Input**: Otomatik yazılacak metin
+- **Timing**: Mesaj gönderme süresi
+- **Start/Stop**: Spam bot kontrolü
 
-## 🚀 Kurulum
+### Fishing Bot
+- **Kill Fish**: Balıkları öldürme
+- **Grill Fish**: Balıkları ızgara yapma
+- **Drop Dead Fish**: Ölü balıkları yere atma
+- **Drop Hair Color**: Saç boyalarını yere atma
+- **Dead Alarm**: Öldüğünde alarm çalma
+
+### Route Sistemi
+- **Record Route**: Rota kaydetme
+- **Route Range**: Farm alanı belirleme
+- **Route Management**: Rota yönetimi
+- **Auto Route**: Otomatik rota takibi
+
+### Ayarlar
+- **Save Settings**: Ayarları kaydetme
+- **Load Settings**: Ayarları yükleme
+- **File Management**: Dosya yönetimi
+
+## 📦 Kurulum
 
 ### Gereksinimler
-- Node.js 18+ 
-- npm veya yarn
-- Yandex Maps API anahtarı
+- Python 3.8+
+- Windows 10/11 (önerilen)
 
-### Adım 1: Projeyi Klonlayın
+### Adımlar
+1. Projeyi klonlayın:
 ```bash
 git clone <repository-url>
-cd kurye-sistemi
+cd ggbot-v2
 ```
 
-### Adım 2: Bağımlılıkları Yükleyin
+2. Gerekli paketleri yükleyin:
 ```bash
-npm install
+pip install -r requirements.txt
 ```
 
-### Adım 3: Ortam Değişkenlerini Ayarlayın
-`.env` dosyası oluşturun:
-```env
-VITE_YANDEX_MAPS_API_KEY=your-yandex-maps-api-key
-VITE_API_BASE_URL=http://localhost:3001/api
-```
-
-### Adım 4: Uygulamayı Başlatın
+3. Botu çalıştırın:
 ```bash
-npm run dev
+python main.py
 ```
 
-Uygulama `http://localhost:5173` adresinde çalışacaktır.
+## 🎮 Kullanım
 
-## 🔑 Yandex Maps API Kurulumu
+1. **Bot Başlatma**: Ana pencerede "Bot Başlat" butonuna tıklayın
+2. **Ayarları Yapma**: Her sekmede istediğiniz ayarları yapın
+3. **Kalibrasyon**: Gerekli sistemler için renk/pozisyon kalibrasyonu yapın
+4. **Kaydetme**: Ayarlarınızı "Ayarlar" sekmesinden kaydedin
 
-1. [Yandex Developer Console](https://developer.tech.yandex.ru/) adresine gidin
-2. Yeni bir proje oluşturun
-3. Maps JavaScript API'yi etkinleştirin
-4. API anahtarınızı alın
-5. `.env` dosyasına ekleyin
+## ⚙️ Konfigürasyon
 
-## 👤 Demo Hesaplar
+### Potion Sistemi
+- HP/MP threshold değerlerini ayarlayın
+- Potion tuşlarını oyununuza göre düzenleyin
+- HP/MP bar koordinatlarını kalibre edin
 
-Sistemi test etmek için aşağıdaki demo hesapları kullanabilirsiniz:
+### Saldırı Sistemi
+- Saldırı tuşlarını ayarlayın
+- Mob/Stone renklerini kalibre edin
+- Saldırı aralığını belirleyin
 
-### Admin Hesabı
-- **Kullanıcı Adı**: `admin`
-- **Şifre**: `admin123`
+### ESP Sistemi
+- Player/Stone renklerini kalibre edin
+- ESP penceresini istediğiniz konuma yerleştirin
 
-### Müşteri Hesabı
-- **Kullanıcı Adı**: `customer`
-- **Şifre**: `customer123`
+### Item Sistemi
+- Toplanacak itemleri listeye ekleyin
+- Item renklerini kalibre edin
+- Toplama aralığını ayarlayın
 
-### Kurye Hesabı
-- **Kullanıcı Adı**: `courier`
-- **Şifre**: `courier123`
+## 🔧 Gelişmiş Ayarlar
 
-## 📱 Mobil Uyumluluk
+### Renk Kalibrasyonu
+Çoğu sistem için renk kalibrasyonu gereklidir:
+1. İlgili sekmede "Kalibre Et" butonuna tıklayın
+2. Mouse ile rengi seçin
+3. Sistem otomatik olarak renk aralığını hesaplayacaktır
 
-Sistem tamamen responsive tasarıma sahiptir ve mobil cihazlarda mükemmel çalışır:
+### Pozisyon Kalibrasyonu
+Farm ve potion sistemleri için pozisyon kalibrasyonu:
+1. "Pozisyonu Kaydet" butonuna tıklayın
+2. Mouse ile bölgeyi seçin
+3. Sistem koordinatları kaydedecektir
 
-- **iOS Safari** - Tam destek
-- **Android Chrome** - Tam destek
-- **Progressive Web App (PWA)** - Yüklenebilir uygulama
-- **Offline Mode** - İnternet bağlantısı olmadan da çalışır
+## 📁 Dosya Yapısı
 
-## 🌍 Çoklu Dil Desteği
-
-Sistem Türkçe ve Rusça dillerini destekler:
-
-- **Türkçe** - Varsayılan dil
-- **Rusça** - Tam çeviri desteği
-- **Dinamik Dil Değiştirme** - Anlık dil değişimi
-
-## 🔧 Konfigürasyon
-
-### Fiyatlandırma Kuralları
-```javascript
-// src/config/settings.js
-DEFAULT_PRICING: [
-  { minDistance: 0, maxDistance: 3, price: 10 },
-  { minDistance: 3, maxDistance: 10, price: 15 },
-  { minDistance: 10, maxDistance: 20, price: 25 },
-  { minDistance: 20, maxDistance: 50, price: 40 },
-]
+```
+ggbot-v2/
+├── main.py                 # Ana bot dosyası
+├── requirements.txt        # Gerekli paketler
+├── README.md              # Bu dosya
+├── modules/               # Bot modülleri
+│   ├── potion_system.py   # Potion sistemi
+│   ├── attack_system.py   # Saldırı sistemi
+│   ├── esp_system.py      # ESP sistemi
+│   ├── speed_system.py    # Hız sistemi
+│   └── item_system.py     # Item sistemi
+├── data/                  # Veri dosyaları
+│   └── items.json         # Item listesi
+├── routes/                # Kaydedilmiş rotalar
+└── settings/              # Bot ayarları
+    └── settings.json      # Varsayılan ayarlar
 ```
 
-### Promosyon Kodları
-```javascript
-DEFAULT_PROMO_CODES: [
-  { code: 'WELCOME10', discount: 10, type: 'percentage', maxUses: 100 },
-  { code: 'FIRST5', discount: 5, type: 'fixed', maxUses: 50 },
-]
-```
+## ⚠️ Uyarılar
 
-## 📊 Sipariş Durumları
+- Bu bot eğitim amaçlı geliştirilmiştir
+- Oyun kurallarına uygun kullanın
+- Ban riski olabilir, dikkatli kullanın
+- Sadece kendi hesabınızda kullanın
 
-1. **Bekliyor** - Sipariş oluşturuldu, kurye bekleniyor
-2. **Kabul Edildi** - Kurye siparişi kabul etti
-3. **Yolda** - Kurye teslimat yolunda
-4. **Teslim Edildi** - Sipariş başarıyla teslim edildi
+## 🐛 Sorun Giderme
 
-## 🔔 Bildirim Sistemi
+### Bot Çalışmıyor
+- Python sürümünü kontrol edin (3.8+)
+- Gerekli paketlerin yüklü olduğundan emin olun
+- Windows sürümünü kontrol edin
 
-- **Push Notifications** - Gerçek zamanlı bildirimler
-- **Toast Messages** - Kullanıcı geri bildirimleri
-- **Email Notifications** - E-posta bildirimleri (gelecek özellik)
+### Renk Tespiti Çalışmıyor
+- Renk kalibrasyonu yapın
+- Oyun grafik ayarlarını kontrol edin
+- Ekran çözünürlüğünü kontrol edin
 
-## 🛡️ Güvenlik
+### Saldırı Sistemi Çalışmıyor
+- Saldırı tuşlarını kontrol edin
+- Mob/Stone renklerini kalibre edin
+- Saldırı aralığını artırın
 
-- **Güvenli Kimlik Doğrulama** - Şifreli giriş sistemi
-- **Rol Tabanlı Erişim** - Kullanıcı yetkilendirme
-- **Session Management** - Oturum yönetimi
-- **Input Validation** - Veri doğrulama
+## 📞 Destek
 
-## 📈 Performans
-
-- **Lazy Loading** - Sayfa yükleme optimizasyonu
-- **Code Splitting** - Bundle boyutu optimizasyonu
-- **Caching** - Veri önbellekleme
-- **Debouncing** - API çağrı optimizasyonu
-
-## 🚀 Production Deployment
-
-### Build
-```bash
-npm run build
-```
-
-### Deploy
-```bash
-# Netlify
-netlify deploy --prod --dir=dist
-
-# Vercel
-vercel --prod
-
-# Firebase
-firebase deploy
-```
-
-## 🔮 Gelecek Özellikler
-
-- [ ] **Backend API** - Node.js/Express backend
-- [ ] **Database** - MongoDB/PostgreSQL entegrasyonu
-- [ ] **Real-time Chat** - Müşteri-kurye mesajlaşma
-- [ ] **Payment Gateway** - Online ödeme sistemi
-- [ ] **Analytics Dashboard** - Detaylı analitik
-- [ ] **Mobile App** - React Native uygulaması
-- [ ] **SMS Notifications** - SMS bildirimleri
-- [ ] **Route Optimization** - En uygun rota hesaplama
-
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+Sorunlar için GitHub Issues kullanın veya öğretmeninize danışın.
 
 ## 📄 Lisans
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
+Bu proje eğitim amaçlı geliştirilmiştir. Ticari kullanım yasaktır.
 
-## 📞 İletişim
+## 🔄 Güncellemeler
 
-- **E-posta**: info@kuryesistemi.com
-- **Telefon**: +90 xxx xxx xx xx
-- **Website**: https://kuryesistemi.com
-
-## 🙏 Teşekkürler
-
-- [Yandex Maps](https://tech.yandex.com/maps/) - Harita servisleri
-- [React](https://reactjs.org/) - UI framework
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
-- [Vite](https://vitejs.dev/) - Build tool
+### v2.0.0
+- İlk sürüm
+- Tüm temel özellikler eklendi
+- Modüler yapı oluşturuldu
+- GUI arayüzü geliştirildi
 
 ---
 
-**Kurye Yönetim Sistemi** - Modern kurye hizmetleri için kapsamlı çözüm 🚚✨ 
+**Not**: Bu bot sadece eğitim amaçlı geliştirilmiştir. Oyun kurallarına uygun kullanın ve ban riskini göz önünde bulundurun.
